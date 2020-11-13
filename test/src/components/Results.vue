@@ -23,6 +23,33 @@
         <h3>Share</h3>
       </div>
     </div>
+    <h2 class="otherText">Other Assets</h2>
+    <div class="other">
+      <div class="otherFiles">
+        <div class="imgBanner"></div>
+        <p>Lore Ipsum</p>
+      </div>
+      <div class="otherFiles">
+        <div class="imgBanner"></div>
+        <p>Lore Ipsum</p>
+      </div>
+      <div class="otherFiles">
+        <div class="imgBanner"></div>
+        <p>Lore Ipsum</p>
+      </div>
+      <div class="otherFiles">
+        <div class="imgBanner"></div>
+        <p>Lore Ipsum</p>
+      </div>
+      <div class="otherFiles">
+        <div class="imgBanner"></div>
+        <p>Lore Ipsum</p>
+      </div>
+      <div class="otherFiles">
+        <div class="imgBanner"></div>
+        <p>Lore Ipsum</p>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -91,6 +118,25 @@ img {
 }
 .left {
   margin-right: 2rem;
+}
+.otherText {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.other {
+  display: flex;
+  width: 80%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.imgBanner {
+  width: 130px;
+  margin: 0px 20px;
+  height: 150px;
+  border: solid black 1px;
+}
+p {
+  text-align: center;
 }
 </style>
     
